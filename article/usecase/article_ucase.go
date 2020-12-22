@@ -122,7 +122,8 @@ func (a *articleUsecase) Update(c context.Context, ar *domain.Article) (err erro
 	ctx, cancel := context.WithTimeout(c, a.contextTimeout)
 	defer cancel()
 
-	ar.UpdatedAt = time.Now()
+	//##BAK
+	ar.UpdatedAt = "" //time.Now()
 	return a.articleRepo.Update(ctx, ar)
 }
 

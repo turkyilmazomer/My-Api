@@ -75,7 +75,8 @@ func (m *mysqlArticleRepository) Fetch(ctx context.Context, cursor string, num i
 	}
 
 	if len(res) == int(num) {
-		nextCursor = repository.EncodeCursor(res[len(res)-1].CreatedAt)
+		//##BAK
+		//nextCursor = repository.EncodeCursor(res[len(res)-1].CreatedAt)
 	}
 
 	return
