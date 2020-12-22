@@ -3,7 +3,6 @@ module github.com/turkyilmazomer/my-api
 go 1.15
 
 require (
-	https://github.com/turkyilmazomer/my-api v2.0.1+incompatible
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/labstack/echo v3.3.10+incompatible
