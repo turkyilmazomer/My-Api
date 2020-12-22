@@ -10,7 +10,6 @@ require (
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/sirupsen/logrus v1.2.0
 	github.com/spf13/viper v1.7.1
-	github.com/turkyilmazomer/My-Api v0.0.0-20201222100415-2304d027e279 // indirect
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
