@@ -1,4 +1,4 @@
-module My-Api
+module github.com/turkyilmazomer/My-Api
 
 go 1.15
 

@@ -10,11 +10,11 @@ import (
 	"github.com/labstack/echo"
 	"github.com/spf13/viper"
 
-	_articleHttpDelivery "github.com/turkyilmazomer/my-api/article/delivery/http"
-	_articleHttpDeliveryMiddleware "github.com/turkyilmazomer/my-api/article/delivery/http/middleware"
-	_articleRepo "github.com/turkyilmazomer/my-api/article/repository/mysql"
-	_articleUcase "github.com/turkyilmazomer/my-api/article/usecase"
-	_authorRepo "github.com/turkyilmazomer/my-api/author/repository/mysql"
+	_articleHttpDelivery "github.com/turkyilmazomer/My-Api/article/delivery/http"
+	_articleHttpDeliveryMiddleware "github.com/turkyilmazomer/My-Api/article/delivery/http/middleware"
+	_articleRepo "github.com/turkyilmazomer/My-Api/article/repository/mysql"
+	_articleUcase "github.com/turkyilmazomer/My-Api/article/usecase"
+	_authorRepo "github.com/turkyilmazomer/My-Api/author/repository/mysql"
 )
 
 func init() {
